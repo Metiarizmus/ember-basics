@@ -1,0 +1,15 @@
+.post-info {
+    width: 40rem;
+    background-color: aquamarine;
+    height: 10rem;
+}
+
+.comment {
+    margin-top: 2rem;
+    width: 30rem;
+    background-color: rgb(129, 127, 255);
+    height: 7rem;
+}
+
+.post-comments {
+}

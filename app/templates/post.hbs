@@ -1,0 +1,31 @@
+<div class="post-info">
+  <p>
+    userId:
+    {{@model.post.userId}}
+  </p>
+  <p>
+    id:
+    {{@model.post.id}}
+  </p>
+  <p>
+    title:
+    {{@model.post.title}}
+  </p>
+  <p>
+    body:
+    {{@model.post.body}}
+  </p>
+
+</div>
+
+<div class="post-comments">
+  {{#each @model.comments as |comment|}}
+    <div class="comment">
+      {{comment.body}}
+      <p>
+        Author {{comment.email}}
+      </p>
+    </div>
+
+  {{/each}}
+</div>

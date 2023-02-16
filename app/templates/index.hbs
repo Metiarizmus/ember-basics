@@ -1,0 +1,7 @@
+<div class="container-card">
+  {{#each @model as |post|}}
+  <LinkTo @route="post" @model="1">
+    <PostCart @title="{{post.title}}" @body="{{post.body}}" />
+  </LinkTo>
+  {{/each}}
+</div>

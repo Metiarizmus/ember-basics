@@ -1,0 +1,10 @@
+.user-card {
+  background: linear-gradient(to top, #2193b0, #6dd5ed);
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.3s ease-in-out;
+  margin-top: 2rem;
+}
